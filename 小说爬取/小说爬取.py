@@ -2,7 +2,6 @@
 """
 Created on Tue Aug 22 11:04:57 2017
 @author: zhang
-website:zhangsidan.com
 """
 
 
