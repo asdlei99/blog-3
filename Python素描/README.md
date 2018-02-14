@@ -5,4 +5,4 @@
 <div align="center">
 <img src="1.jpg" height="300px" alt="" ><img src="pencil_drawing1.jpg" height="300px" alt="" >    
 </div>  
-[源代码](code.py)  
+源代码见code.py   
