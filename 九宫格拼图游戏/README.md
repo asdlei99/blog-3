@@ -7,3 +7,4 @@
 </div>
 我使用了pyinstaller生成了Windows下的exe文件，120M，超过了github允许的最大100M的限制,就不放上来了。    
 [源代码](game.py)   
+[源代码](game.py)  
