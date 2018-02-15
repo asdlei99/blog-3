@@ -1,8 +1,7 @@
 ## 使用Python画素描
 
 我是用线条为单位进行素描的，并且增加了随机函数，使得线条长度不确定，
-这样创作的素描画看上去更柔和，也更接近真实的人类作画的风格。  
-<div align="center">
-<img src="1.jpg" height="300px" alt="" ><img src="pencil_drawing1.jpg" height="300px" alt="" >    
-</div>  
-源代码见code.py   
+这样创作的素描画看上去更柔和，也更接近真实的人类作画的风格。 
+现在把代码修改为使用numpy，只要20行就能实验这个功能，效果还更好  
+![](1.jpg)![](pencil_drawing1.jpg)![](new1.jpg)  
+修改后的代码见Python素描.py，老的代码见code.py    
