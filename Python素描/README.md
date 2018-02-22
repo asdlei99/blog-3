@@ -9,4 +9,4 @@
 ![](pencil_drawing1.jpg)</br>
 第三张是修改后的代码画的  </br>
 ![](new1.jpg)  </br>
-修改后的代码见Python素描.py，老的代码见code.py    </br>
+修改后的代码见 [Python素描.py](Python素描.py) ，老的代码见 [code.py](code.py)    </br>
