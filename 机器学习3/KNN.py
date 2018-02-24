@@ -1,3 +1,8 @@
+"""
+Created on Fri Feb 24 09:55:40 2018
+
+@author: peter
+"""
 import numpy as np     #导入numpy工具包
 from os import listdir #使用listdir模块，用于访问本地文件
 from sklearn import neighbors
