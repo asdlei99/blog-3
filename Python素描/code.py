@@ -4,16 +4,12 @@ Created on Sun Feb 11 13:14:52 2018
 
 @author: peter
 """
-
-
 from PIL import Image
 from random import randint
 old = Image.open(r"1.jpg")
 new = Image.new('L', old.size, 255)
 w, d = old.size
-
 old = old.convert('L')
-
 # Define the size of the pencil:
 PEN_SIZE = 3
 COLOR_DIFF = 7
