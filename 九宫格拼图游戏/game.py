@@ -1,4 +1,4 @@
-import pygame, sys, random
+import pygame
 from pygame.locals import *
 
 # 一些常量
@@ -17,11 +17,13 @@ MAXRANDTIME = 100
 # 退出
 def terminate():
     pygame.quit()
-    sys.exit()
+    from sys import exit as sysexit
+    sysexit()
 
 
 # 随机生成游戏盘面
 def newGameBoard():
+    from random import randint as randomrandint
     board = []
     for i in range(CELLNUMS):
         board.append(i)
@@ -29,7 +31,7 @@ def newGameBoard():
     board[blackCell] = -1
 
     for i in range(MAXRANDTIME):
-        direction = random.randint(0, 3)
+        direction = randomrandint(0, 3)
         if (direction == 0):
             blackCell = moveLeft(board, blackCell)
         elif (direction == 1):
